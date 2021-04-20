@@ -9,6 +9,7 @@ $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $config= [
+	'userClass'=> \app\models\User::class,
 	'db' => [
 		'dsn'=>$_ENV['DB_DSN'],
 		'user'=>$_ENV['DB_USER'],
@@ -16,6 +17,6 @@ $config= [
 	]
 ];
 
-$app = new Application(__DIR__, $config);
+$app = new Application(dirname(__DIR__).'/minimal-php-mvc-client', $config);
 
 $app->db->applyMigrations();
