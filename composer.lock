@@ -74,16 +74,16 @@
         },
         {
             "name": "heitorspedroso/minimal-php-mvc-framework",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heitorspedroso/minimal-php-mvc-framework.git",
-                "reference": "74b1e0d45e536ed08a4606a06a70d1f097876e53"
+                "reference": "3757be923e70cf3e580aa809010a9fe0742d674b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heitorspedroso/minimal-php-mvc-framework/zipball/74b1e0d45e536ed08a4606a06a70d1f097876e53",
-                "reference": "74b1e0d45e536ed08a4606a06a70d1f097876e53",
+                "url": "https://api.github.com/repos/heitorspedroso/minimal-php-mvc-framework/zipball/3757be923e70cf3e580aa809010a9fe0742d674b",
+                "reference": "3757be923e70cf3e580aa809010a9fe0742d674b",
                 "shasum": ""
             },
             "type": "library",
@@ -101,9 +101,9 @@
             ],
             "support": {
                 "issues": "https://github.com/heitorspedroso/minimal-php-mvc-framework/issues",
-                "source": "https://github.com/heitorspedroso/minimal-php-mvc-framework/tree/v1.0.2"
+                "source": "https://github.com/heitorspedroso/minimal-php-mvc-framework/tree/v1.0.3"
             },
-            "time": "2021-04-20T13:38:40+00:00"
+            "time": "2021-04-20T20:25:13+00:00"
         },
         {
             "name": "phpoption/phpoption",

@@ -2,3 +2,4 @@ vendor
 .idea
 .env
 core
+composer.lock
