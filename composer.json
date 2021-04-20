@@ -1,0 +1,17 @@
+{
+    "name": "heitor/phpmvc",
+    "authors": [
+        {
+            "name": "Heitor",
+            "email": "heitorspedroso@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\" : "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
