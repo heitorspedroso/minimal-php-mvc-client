@@ -20,6 +20,9 @@ $config= [
 ];
 
 $app = new Application(dirname(__DIR__), $config);
+$app->on(Application::EVENT_BEFORE_REQUEST, function (){
+	echo "Before Request";
+});
 
 $app->router->get('/',[SiteController::class,'home']);
 $app->router->get('/contact',[SiteController::class,'contact']);
