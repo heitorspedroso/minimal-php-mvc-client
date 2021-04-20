@@ -2,10 +2,10 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
+use heitorspedroso\minimalphpmvcframework\Application;
+use heitorspedroso\minimalphpmvcframework\Controller;
+use heitorspedroso\minimalphpmvcframework\Request;
+use heitorspedroso\minimalphpmvcframework\Response;
 use app\models\ContactForm;
 
 /**

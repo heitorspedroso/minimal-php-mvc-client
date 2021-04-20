@@ -1,6 +1,6 @@
 <?php
 
-use app\core\Application;
+use heitorspedroso\minimalphpmvcframework\Application;
 
 //now every class if we use it with the correct namespace can be autoloaded
 require_once __DIR__ . '/vendor/autoload.php';

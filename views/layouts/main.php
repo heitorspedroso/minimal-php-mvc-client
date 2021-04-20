@@ -1,5 +1,5 @@
 <?php
-    use app\core\Application;
+    use heitorspedroso\minimalphpmvcframework\Application;
 ?>
 
 <!doctype html>

@@ -4,8 +4,8 @@
 namespace app\models;
 
 
-use app\core\Application;
-use app\core\Model;
+use heitorspedroso\minimalphpmvcframework\Application;
+use heitorspedroso\minimalphpmvcframework\Model;
 
 class LoginForm extends Model {
 

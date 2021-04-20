@@ -2,8 +2,8 @@
 
 namespace app\models;
 
-use app\core\DbModel;
-use app\core\UserModel;
+use heitorspedroso\minimalphpmvcframework\DbModel;
+use heitorspedroso\minimalphpmvcframework\UserModel;
 
 class User extends UserModel {
 

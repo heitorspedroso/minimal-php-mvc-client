@@ -1,5 +1,5 @@
 <?php
-/** @var $this \app\core\View */
+/** @var $this \heitorspedroso\minimalphpmvcframework\View */
 
 $this->title = 'Profile';
 ?>
